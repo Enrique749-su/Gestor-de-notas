@@ -1,0 +1,48 @@
+INICIO 
+REPETIR 
+IMPRIMIR “Gestor de notas”
+IMPRIMIR “1. Registrar un nuevo curso y su nota”
+IMPRIMIR “2. Mostrar todas las notas registradas “
+IMPRIMIR “3. Calcular el promedio general de las notas”
+IMPRIMIR “4. Editar una nota existente”
+IMPRIMIR “5. Eliminar curso y su nota”
+IMPRIMIR “6. Buscar estudiantes existente”
+IMPRIMIR “7. Buscar sección estudiante”
+IMPRIMIR “8. Salir”
+IMPRIMIR “selección opción”
+
+Leer opción 
+Si opción = 1 ENTONCES 
+<registrar_nuevocurso>
+SINO 
+SI opción = 2 ENTOCES 
+< mostrar_todaslasnotas>
+SINO
+SI opción = 3 ENTONCES
+<calcular_promediogeneral>
+SINO
+SI opción =4 ENTONCES
+<editar_todas_las_registradas>
+SINO
+SI opción = 5 ENTONCES
+<eliminar_cursos_y_su_nota>
+SINO
+SI opción = 6 ENTOCES
+<buscar_estudiante_existente>
+SINO
+SI opción = 7 ENTONCES
+<buscar_sección_estudiante>
+SINO
+SI opción = 8 ENTONCES
+IMPRIMIR “saliendo del sistema”
+SINO 
+IMPRIMIR “opción no valida”
+FINSI
+FINSI
+FINSI
+FINSI
+
+MIENTRAS opción ! = 4
+Fin 
+
+
